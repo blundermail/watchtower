@@ -1,4 +1,1 @@
-FROM ubuntu:14.04
-
-COPY watchtower /
-ENTRYPOINT ["/watchtower"]
+FROM golang:1.6-onbuild
